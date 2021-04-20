@@ -1218,7 +1218,7 @@ body.ie ._ibg img {
   left: 0;
   min-width: 9%;
   min-height: 100%;
-  z-index: 48;
+  z-index: 52;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1290,6 +1290,10 @@ body.ie ._ibg img {
   -webkit-transition: color 0.4s ease-in-out;
   -o-transition: color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out;
+}
+
+.social__list-link:active {
+  color: #5c8531;
 }
 
 .page__wrapper {
